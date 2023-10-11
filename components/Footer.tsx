@@ -1,17 +1,38 @@
+import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react';
+import linkedin_logo from '../data/linkedin_logo.png'
+import logo from '../data/b16_logo.png'
 
 const Footer: React.FC = () => {
   return (
     <footer className="flex justify-between mx-12 border-y-10 border-t-black-400 mx-16 py-16">
       <div className='flex'>
         <Link href='/' arai-label='home'>
-          <div className='flex items-center justify-between mr-3'>
-            <p>Base16 Logo</p>
+          <div className='flex items-center justify-between'>
+            <Image
+              src={logo}
+              width={30}
+              height={30}
+              alt='company logo'
+              style={{
+                marginRight: '1em'
+              }}
+            />
           </div>
         </Link>
         <a className='mr-3' href='mailto:support@base-16.com'>support@base-16.com</a>
-        <Link href='https://www.linkedin.com/company/base16-inc/about/'>LinkedIn</Link>
+        <Link href='https://www.linkedin.com/company/base16-inc/about/'>
+          <Image
+            src={linkedin_logo}
+            width={30}
+            height={30}
+            alt='linkedin logo'
+            style={{
+              marginRight: '1em'
+            }}
+          />
+        </Link>
       </div>
       <div className='flex'>
         <p className='mr-2'>Copyright @</p>
