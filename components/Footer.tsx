@@ -22,6 +22,8 @@ const Footer: React.FC = () => {
           </div>
         </Link>
         <a className='mr-3' href='mailto:support@base-16.com'>support@base-16.com</a>
+      </div>
+      <div className='flex'>
         <Link href='https://www.linkedin.com/company/base16-inc/about/'>
           <Image
             src={linkedin_logo}
@@ -33,8 +35,6 @@ const Footer: React.FC = () => {
             }}
           />
         </Link>
-      </div>
-      <div className='flex'>
         <p className='mr-2'>Copyright @</p>
         <strong>Base-16 Inc.</strong>
       </div>
