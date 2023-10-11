@@ -7,8 +7,8 @@ import smProfilePic from '../data/sm_profile.jpeg';
 export default function Home() {
   return (
     <>
-      <div>
-        <section className='bg-[#f4f4f4] py-16'>
+      <div className='text-[#FBFBFB]'>
+        <section className='bg-[#525252] py-16'>
           <div className='container mx-auto max-w-xl'>
             <h1 className='font-bold text-6xl leading-tight mb-3'>Building cool software, one line at a time</h1>
             <p className='mb-3'>Base16 is committed to build something cool and useful.</p>
@@ -39,16 +39,16 @@ export default function Home() {
             <p>Base16’s mission is to support candidates and companies by providing the tools and information that they need to make informed decisions about where to work and whom to hire. That means:</p>
           </div>
         </section> */}
-        <section className='flex flex-col content-center items-center py-16'>
+        <section className='flex flex-col content-center items-center py-16 bg-[#120046]'>
           <h3 className='text-4xl mb-3'>Swing Tune-Up</h3>
           <p className='mb-3'>Swing Tune-Up is a tool/community for golfers to help them improve faster.</p>
           <Image src='https://placehold.co/600x400/png' width={600} height={400} alt='golf app screen shot' style={{
             objectFit: 'cover',
             marginBottom: '2.5em'
           }} />
-          <Link href='https://www.swingtuneup.com' target='_blank' className='rounded-full inline-block text-center p-2 px-6 bg-[#B6B6B6]'>Go to Swing Tune-Up Website</Link>
+          <Link href='https://www.swingtuneup.com' target='_blank' className='rounded-full inline-block text-center p-2 px-6 bg-[#A671FF]'>Go to Swing Tune-Up Website</Link>
         </section>
-        <section className='flex flex-col content-center items-center py-16'>
+        <section className='flex flex-col content-center items-center py-16 bg-[#120046]'>
           <h3 className='text-4xl mb-3'>Team</h3>
           <ul className='flex flex-wrap items-center justify-center m-auto max-w-screen-lg my-16'>
             <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10'>
@@ -92,10 +92,12 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section className='flex flex-col content-center items-start mx-auto max-w-xl py-16'>
-          <h3 className='text-4xl mb-3'>Contact Us</h3>
-          <p className='mb-3'>Reach out to us for any questions!</p>
-          <a className='rounded-full inline-block text-center p-2 px-6 bg-[#B6B6B6]' href='mailto:support@base-16.com?subject=Mail from Base16 Site' target='_blank'>Email Us</a>
+        <section className='flex flex-col content-center items-start mx-auto py-16 bg-[#525252]'>
+          <div className='container mx-auto max-w-xl'>
+            <h3 className='text-4xl mb-3'>Contact Us</h3>
+            <p className='mb-3'>Reach out to us for any questions!</p>
+            <a className='rounded-full inline-block text-center p-2 px-6 bg-[#A671FF]' href='mailto:support@base-16.com?subject=Mail from Base16 Site' target='_blank'>Email Us</a>
+          </div>
         </section>
       </div>
     </>
