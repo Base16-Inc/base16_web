@@ -4,6 +4,7 @@ import andrewProfilePic from '../data/andrew_profile.jpeg';
 import danielProfilePic from '../data/daniel_profile.jpeg';
 import graceProfilePic from '../data/grace_profile.png';
 import smProfilePic from '../data/sm_profile.jpeg';
+import stuLogoPic from '../data/stu_logo.png';
 
 export default function Home() {
   return (
@@ -42,8 +43,8 @@ export default function Home() {
         </section> */}
         <section className='flex flex-col content-center items-center py-16 bg-[#120046]'>
           <h3 className='text-4xl mb-3'>Swing Tune-Up</h3>
-          <p className='mb-3'>Swing Tune-Up is a tool/community for golfers to help them improve faster.</p>
-          <Image src='https://placehold.co/600x400/png' width={600} height={400} alt='golf app screen shot' style={{
+          <p className='mb-7'>Swing Tune-Up is a tool/community for golfers to help them improve faster.</p>
+          <Image src={stuLogoPic} width={150} height={150} alt='swing tune up logo' style={{
             objectFit: 'cover',
             marginBottom: '2.5em'
           }} />
