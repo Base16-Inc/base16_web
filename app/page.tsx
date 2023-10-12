@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import andrewProfilePic from '../data/andrew_profile.jpeg';
 import danielProfilePic from '../data/daniel_profile.jpeg';
-import graceProfilePic from '../data/grace_profile.png';
+import graceProfilePic from '../data/grace_profile.PNG';
 import smProfilePic from '../data/sm_profile.jpeg';
 
 export default function Home() {
