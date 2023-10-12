@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import andrewProfilePic from '../data/andrew_profile.jpeg';
 import danielProfilePic from '../data/daniel_profile.jpeg';
+import graceProfilePic from '../data/grace_profile.png';
 import smProfilePic from '../data/sm_profile.jpeg';
 
 export default function Home() {
@@ -51,7 +52,7 @@ export default function Home() {
         <section className='flex flex-col content-center items-center py-16 bg-[#120046]'>
           <h3 className='text-4xl mb-3'>Team</h3>
           <ul className='flex flex-wrap items-center justify-center m-auto max-w-screen-lg my-16'>
-            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10'>
+            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10 pb-8'>
               <Image
                 src={danielProfilePic}
                 alt='picture of Daniel'
@@ -64,7 +65,7 @@ export default function Home() {
               />
               <span>Daniel - Founder, CEO</span>
             </li>
-            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10'>
+            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10 pb-8'>
               <Image
                 src={andrewProfilePic}
                 alt='picture of Andrew'
@@ -77,7 +78,7 @@ export default function Home() {
               />
               <span>Andrew - Co-Founder, Dev</span>
             </li>
-            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10'>
+            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10 pb-8'>
               <Image
                 src={smProfilePic}
                 alt='picture of Sngmin'
@@ -89,6 +90,19 @@ export default function Home() {
                 }}
               />
               <span>Sngmin - Co-Founder, Dev</span>
+            </li>
+            <li className='flex flex-col items-center justify-center basis-1/3 min-w-[30%] px-10 pb-8'>
+              <Image
+                src={graceProfilePic}
+                alt='picture of grace'
+                style={{
+                  objectFit: 'cover',
+                  width: '100%',
+                  height: '250px',
+                  marginBottom: '1.5em'
+                }}
+              />
+              <span>Grace - UI/UX Designer</span>
             </li>
           </ul>
         </section>
