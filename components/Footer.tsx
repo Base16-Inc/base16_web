@@ -8,36 +8,33 @@ const Footer: React.FC = () => {
   return (
     <footer className="w-full border-y-10 border-t-black-400 py-8 bg-[#1E1E1E] text-white">
       <div className="flex justify-between mx-16">
-        <div className='flex'>
+        <div className='flex items-center'>
           <Link href='/' arai-label='home'>
-            <div className='flex items-center justify-between'>
               <Image
                 src={logo}
                 width={30}
                 height={30}
                 alt='company logo'
                 style={{
-                  marginRight: '1em'
+                  marginRight: '0.5em'
                 }}
               />
-            </div>
           </Link>
           <a className='mr-3' href='mailto:support@base-16.com'>support@base-16.com</a>
         </div>
-        <div className='flex'>
+        <div className='flex items-center'>
           <Link href='https://www.linkedin.com/company/base16-inc/about/'>
             <Image
               src={linkedin_logo}
-              width={30}
-              height={30}
+              width={24}
+              height={24}
               alt='linkedin logo'
               style={{
                 marginRight: '1em'
               }}
             />
           </Link>
-          <p className='mr-2'>Copyright @</p>
-          <strong>Base16 Inc.</strong>
+          <p className='mr-2 text-sm'>© 2026 Base16 Inc. All Rights Reserved</p>
         </div>
       </div>
     </footer>)

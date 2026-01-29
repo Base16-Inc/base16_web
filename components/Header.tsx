@@ -9,16 +9,16 @@ const Header: React.FC = () => {
       <div className="flex items-center justify-start mx-16">
         <Image
           src={logo}
-          width={30}
-          height={30}
+          width={48}
+          height={48}
           alt='company logo'
           style={{
-            marginRight: '1em'
+            marginRight: '0.5em'
           }}
         />
         <Link href='/' arai-label='home'>
           <div className='flex items-center justify-between'>
-            <p className="text-lg font-sans font-bold">Base16</p>
+            <p className="text-lg font-sans font-bold">Base16 Inc.</p>
           </div>
         </Link>
       </div>
