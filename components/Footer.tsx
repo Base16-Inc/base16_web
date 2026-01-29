@@ -6,7 +6,7 @@ import logo from '../data/b16_logo_clear.png'
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full border-y-10 border-t-black-400 py-8 bg-[#181818] text-white">
+    <footer className="w-full border-y-10 border-t-black-400 py-8 bg-[#1E1E1E] text-white">
       <div className="flex justify-between mx-16">
         <div className='flex'>
           <Link href='/' arai-label='home'>
