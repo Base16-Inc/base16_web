@@ -5,7 +5,7 @@ import logo from '../data/b16_logo_clear.png'
 
 const Header: React.FC = () => {
   return (
-    <header className="w-full py-3 bg-[#1E1E1E] text-white">
+    <header className="sticky top-0 z-10 w-full py-3 bg-[#1E1E1E] text-white">
       <div className="flex items-center justify-start mx-16">
         <Image
           src={logo}

@@ -5,7 +5,7 @@ import stuLogoPic from '../data/stu_logo.png'
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center justify-center h-full bg-[#181818] text-[#FBFBFB]'>
+    <div className='flex flex-col items-center justify-center w-full text-[#FBFBFB]'>
       <div className='flex flex-row items-center justify-center gap-64'>
         <section className='flex flex-col items-center'>
           <Image
