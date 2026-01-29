@@ -6,7 +6,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Base16 Inc.',
-  description: 'Building Things'
+  description: 'Building Things',
+  icons: {
+    icon: '/data/b16_logo_128_rounded.png',
+  },
 }
 
 export default function RootLayout({
