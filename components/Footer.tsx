@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
             />
           </Link>
           <p className='mr-2'>Copyright @</p>
-          <strong>Base-16 Inc.</strong>
+          <strong>Base16 Inc.</strong>
         </div>
       </div>
     </footer>)

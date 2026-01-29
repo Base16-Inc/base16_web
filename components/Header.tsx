@@ -18,7 +18,7 @@ const Header: React.FC = () => {
         />
         <Link href='/' arai-label='home'>
           <div className='flex items-center justify-between'>
-            <p className="text-lg font-sans">Base16</p>
+            <p className="text-lg font-sans font-bold">Base16</p>
           </div>
         </Link>
       </div>
